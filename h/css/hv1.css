@@ -1,0 +1,265 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,1)), url("/images/cargoShip.jpg");
+    height: 97vh;
+    background-size: cover;
+    color: rgb(200, 200, 200);
+}
+
+.nav{
+    position: absolute;
+    top:10%;
+    left: 18.6%;
+}
+
+.button{
+    font-size: 16px;
+    text-decoration: none;
+    padding: 1rem 3rem;
+    margin: 0rem 1rem;
+    color: rgb(200, 200, 200);
+    text-align: center;
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 6px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.button:hover{
+    transition-timing-function: ease-in;
+    transition-duration: 169ms;
+    color: white;
+    border-color: black;
+    border-radius: 4px;
+    background:rgba(0,0,0,0.3);
+    cursor: pointer;
+}
+
+#activeLink{
+    background:rgba(0,0,0,0.6);
+}
+
+.button2:hover{
+    transition-timing-function: ease-in;
+    transition-duration:169ms;
+    background-color: rgba(0, 200, 0,1);
+}
+
+.button:active{
+    color: rgb(255, 255,255);
+    background-color: rgb(0, 0, 0);    
+}
+
+.form{
+    line-height: 24px;
+    background: transparent;
+    outline: none;
+    border: none;
+    color: rgb(200, 200, 200);
+    border-bottom: 2px solid rgb(200, 200, 200);
+    font-size: 1rem;
+    margin: 12px 30px;
+    text-align: center;
+    background-blend-mode: darken;
+}
+
+#homeBody{
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.5)), url("/images/cargoShip.jpg");
+    height: 97vh;
+    background-size: cover;
+    color: rgb(200, 200, 200);
+}
+
+#homeBottom{
+    width: 90px;
+    position: absolute;
+    top: 88%;
+    left: 84%;
+}
+
+#homeTitle{
+    color:rgb(200, 200, 200);
+    font-size: 5rem;
+    position: absolute;
+    top: 42%;
+    left: 26%;
+}
+
+#aboutHeading{
+    color: rgb(200, 200, 200);
+    text-align:center;
+    position: absolute;
+    top: 28%;
+    left: 26%;
+    width: 800px;
+    font-size: 80px;
+}
+
+#aboutContent{
+    position:absolute;
+    width: 600px;
+    top: 44%;
+    left: 40%;
+    color: rgb(200, 200, 200);
+    font-size: larger;
+}
+
+#aboutAgencyInfo{
+    text-align: center;
+    position: absolute;
+    top:145%;
+    left:5%;
+}
+
+#adminTitle{
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 45%;
+}
+
+#adminWhole{
+    position: absolute;
+    top: 33%;
+    left: 44%;
+}
+
+#adminButton{
+    position: absolute;
+    top: 120%;
+    left: 2%;
+    width:max-content;
+}
+
+#loginWhole{
+    position: absolute;
+    top:32%;
+    left: 40%;
+}
+
+#loginButton{
+    position: absolute;
+    top: 100%;
+    left:22%;
+}
+
+#loginBottom{
+    text-align: center;
+    position: absolute;
+    top: 200%;
+    left:18%;
+    width: 200px;
+}
+
+#registerTitle{
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 41%;
+}
+
+#registerWhole{
+    position: absolute;
+    top: 21%;
+    left: 39%;
+}
+
+#registerSubmit{
+    position: absolute;
+    top: 100%;
+    left: 23%;
+}
+
+#registerBottom{
+    position: absolute;
+    top: 120%;
+    left: 20%;
+    width: 400px;
+}
+
+#cargoWhole{
+    position:absolute;
+    top: 24%;
+    left: 40%;
+}
+
+#cargoCC{
+    position:absolute;
+    top: 96%;
+    left: 13%;
+}
+
+#cargoResult{
+    text-align: center;
+    position:absolute;
+    top:123%;
+    left: 19%;
+}
+
+#cargoCB{
+    position:absolute;
+    top: 140%;
+    left: 15%;
+}
+
+#adminPageWhole{
+    position:absolute;
+    top: 36%;
+    left:41%
+}
+
+#adminPageButton{
+    position:absolute;
+    top: 105%;
+    left:14%
+}
+
+/* #agencyBottom{
+    position: absolute;
+    top:55%;
+    left: 45%;
+}
+#agencyBottomHeading{
+    width: 690px;
+    position: absolute;
+    top: %;
+    left: -40%;
+} */
+
+#forgotPasswordTitle{
+    font-size: 40px;
+    position: absolute;
+    top: 25%;
+    left: 46%;
+}
+
+#forgotPassword{
+    line-height: 80px;
+    position:absolute;
+    top: 40%;
+    left: 42%;
+    text-align: center;
+}
+
+#forgotPassResetQuestion{
+    position:absolute;
+    top: 45%;
+    left: 36%
+}
+
+#resetPasswordTitle{
+    font-size: 40px;
+    position: absolute;
+    top: 23%;
+    left: 42%;
+}
+
+#resetPassword{
+    line-height: 80px;
+    position:absolute;
+    top: 36%;
+    left: 45%;
+    text-align: center;
+}
